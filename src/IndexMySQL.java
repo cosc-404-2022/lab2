@@ -83,6 +83,7 @@ public class IndexMySQL
 	 *  - val1 - integer (starts at 1 and each record increases by 1)
 	 *  - val2 - integer (val1 % 10)
 	 *  - str1 - varchar(20) = "Test"+val1
+	 * Note: You do NOT need to use calculated or derived fields.
 	 */
 	public void create() throws SQLException
 	{
