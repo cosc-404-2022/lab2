@@ -15,7 +15,7 @@ services:
             - '3306'
         volumes:
             - mysql-db:/var/lib/mysql
-    cosc404-lab1-postgres:
+    cosc404-lab2-postgres:
         image: postgres:14
         container_name: cosc404-lab2-postgres
         restart: always
